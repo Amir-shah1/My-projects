@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+}
+p{
+    position: relative;
+    bottom: 20vh;
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+#main{
+    display: flex;
+    gap: 10px;
+
+}
+.rock{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.paper{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sicesor{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#button{
+    margin-top: 100px;
+    width: fit-content;
+    padding: 5px 20px 5px 20px;
+}

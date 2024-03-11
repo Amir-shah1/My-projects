@@ -1,0 +1,21 @@
+.time{
+    width: fit-content;
+    border: 1px solid rgb(97, 70, 205);
+    padding: 8px;
+    background-color: rgba(49, 47, 43, 0.894);
+    color: white;
+    font-weight: bold;
+    box-shadow:  0px 3px 3px blueviolet;
+    border-radius: 8px;
+}
+div:first-child{
+    font-weight: bold;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    position: relative;
+    top: 30vh;
+}

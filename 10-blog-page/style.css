@@ -1,0 +1,9 @@
+input{
+    width: 50%;
+    border: 1px solid;
+    height: 30px;
+}
+title{
+    font-weight: bold;
+    background-color: aqua;
+}

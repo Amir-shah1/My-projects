@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.text{
+    padding-top:  100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+.box{
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+
+
+}
+#maindiv{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+#lasttext{
+    background-color: aqua;
+}
